@@ -1,0 +1,126 @@
+QUERY Can I submit late if I was ill?
+handbook:assessment score=0.2389 
+Late coursework normally has a penalty. Illness may qualify for an extension when a medical certificate is provided before the deadline.
+handbook:contact score=0.0000 
+Send an extension request to the course coordinator and keep the response.
+QUERY I cannot log in and forgot my password
+support:login score=0.2286 
+Reset a forgotten password using the recovery link on the login page. If email is unavailable visit the IT desk.
+support:fees score=0.0000 
+Ask the finance office for help with fee payment plans.
+support:upload score=0.0000 
+Upload coursework through the learning portal.
+QUERY module not found after starting python
+docs:install score=0.2504 
+Install the package with pip before importing the module.
+docs:run score=0.2307 
+Run the Python script in the folder containing its dependencies.
+docs:errors score=0.0000 
+If import fails check the virtual environment and package installation.
+QUERY Can contractors work remotely?
+policy:contract score=0.4755 
+Contractors can work remotely only when a signed contract permits it. Employee rules do not automatically apply.
+policy:staff score=0.0764 
+Employees may request remote work with manager approval. Their normal timetable still applies.
+QUERY printer blank paper after printing
+equipment:printer score=0.3648 
+If a printer produces blank pages check ink levels, run the cleaning utility and then print a test page.
+equipment:router score=0.0000 
+If the router drops a connection check cables, power and restart it safely.
+TEXT: 'Hello, world!'
+WHITESPACE: ['Hello,', 'world!'] COUNT: 2
+UNICODE WORD-LIKE: ['Hello', 'world'] COUNT: 2
+TEXT: "I can't submit late!"
+WHITESPACE: ['I', "can't", 'submit', 'late!'] COUNT: 4
+UNICODE WORD-LIKE: ['I', 'can', 't', 'submit', 'late'] COUNT: 5
+TEXT: 'student@example.com'
+WHITESPACE: ['student@example.com'] COUNT: 1
+UNICODE WORD-LIKE: ['student', 'example', 'com'] COUNT: 3
+TEXT: 'CS4944'
+WHITESPACE: ['CS4944'] COUNT: 1
+UNICODE WORD-LIKE: ['CS4944'] COUNT: 1
+TEXT: ''
+WHITESPACE: [] COUNT: 0
+UNICODE WORD-LIKE: [] COUNT: 0
+TEXT: 'میں اردو پڑھتا ہوں'
+WHITESPACE: ['میں', 'اردو', 'پڑھتا', 'ہوں'] COUNT: 4
+UNICODE WORD-LIKE: ['میں', 'اردو', 'پڑھتا', 'ہوں'] COUNT: 4
+MODEL TOKENIZER NOT RUN: ModuleNotFoundError No module named 'sentence_transformers'
+EMBEDDING NOT RUN ModuleNotFoundError No module named 'sentence_transformers'
+word windows
+0 73 'Late work is penalized. Illness may qualify for an extension when medical'
+48 122 'an extension when medical evidence is provided. Ask the coordinator first.'
+sentence aware
+0 23 'Late work is penalized.'
+23 95 ' Illness may qualify for an extension when medical evidence is provided.'
+95 122 ' Ask the coordinator first.'
+MODEL TOKEN LIMIT TEST NOT RUN ModuleNotFoundError No module named 'sentence_transformers'
+Hit@3=0.667; MRR@3=0.500
+TEXT: 'Hello, world!'
+WHITESPACE: ['Hello,', 'world!'] COUNT: 2
+UNICODE WORD-LIKE: ['Hello', 'world'] COUNT: 2
+TEXT: "I can't submit late!"
+WHITESPACE: ['I', "can't", 'submit', 'late!'] COUNT: 4
+UNICODE WORD-LIKE: ['I', 'can', 't', 'submit', 'late'] COUNT: 5
+TEXT: 'student@example.com'
+WHITESPACE: ['student@example.com'] COUNT: 1
+UNICODE WORD-LIKE: ['student', 'example', 'com'] COUNT: 3
+TEXT: 'CS4944'
+WHITESPACE: ['CS4944'] COUNT: 1
+UNICODE WORD-LIKE: ['CS4944'] COUNT: 1
+TEXT: ''
+WHITESPACE: [] COUNT: 0
+UNICODE WORD-LIKE: [] COUNT: 0
+TEXT: 'میں اردو پڑھتا ہوں'
+WHITESPACE: ['میں', 'اردو', 'پڑھتا', 'ہوں'] COUNT: 4
+UNICODE WORD-LIKE: ['میں', 'اردو', 'پڑھتا', 'ہوں'] COUNT: 4
+MODEL TOKENIZER NOT RUN: ModuleNotFoundError No module named 'sentence_transformers'
+QUESTION: 'How do I reset my password?'
+RESPONSE: Use the recovery link on the login page. [source: it_help.txt]
+QUESTION: 'reset forgotten account'
+RESPONSE: Possible FAQ matches. Confirm a listed question before using an answer:
+How do I reset my password? (0.3223)
+Where do I submit my assignment? (0.0000)
+Can illness justify a late submission? (0.0000)
+QUESTION: ''
+RESPONSE: Please enter a question.
+QUESTION: 'volcano geology'
+RESPONSE: No matching FAQ. Please contact the help desk.
+DOCUMENT handbook WORDS 169
+DOCUMENT accounts WORDS 171
+DOCUMENT fees WORDS 173
+DOCUMENT library WORDS 171
+DOCUMENT exams WORDS 177
+STRATEGY window0 {'chunks': 25, 'sizes': [40, 40, 40, 40, 9, 40, 40, 40, 40, 11, 40, 40, 40, 40, 13, 40, 40, 40, 40, 11, 40, 40, 40, 40, 17], 'repeated_words': 0, 'evidence_coverage': '5/8'}
+STRATEGY window10 {'chunks': 30, 'sizes': [40, 40, 40, 40, 40, 19, 40, 40, 40, 40, 40, 21, 40, 40, 40, 40, 40, 23, 40, 40, 40, 40, 40, 21, 40, 40, 40, 40, 40, 27], 'repeated_words': 250, 'evidence_coverage': '6/8'}
+STRATEGY sentence {'chunks': 27, 'sizes': [24, 31, 39, 34, 31, 10, 28, 40, 34, 28, 33, 8, 26, 40, 33, 39, 35, 29, 37, 27, 39, 39, 37, 32, 34, 38, 36], 'repeated_words': 0, 'evidence_coverage': '8/8'}
+EMPTY [] []
+SHORT [(0, 10)] [(0, 10)]
+INVALID OVERLAP Invalid size or overlap
+LONG SENTENCE [(0, 199), (200, 399), (400, 424)]
+ABBREVIATION [(0, 49)]
+BACKEND tfidf
+MODEL LOAD 0.0
+QUERY I missed the deadline due to illness
+fees:sentence:0 score=0.3291 fees
+The regular fee payment deadline is shown on the student finance page. A student facing financial hardship may request a payment plan before the due date.
+handbook:sentence:0 score=0.2526 handbook
+Coursework must normally be uploaded through the learning portal before the deadline. Late coursework normally receives a penalty when the deadline has already passed.
+library:sentence:1 score=0.2286 library
+When a reservation exists the borrower should return the book by the stated due date. An overdue return can lead to a fine shown on the library account. Students can check loan dates in the library portal.
+QUERY I lost my login credentials
+accounts:sentence:3 score=0.3076 accounts
+A student should check the official portal address before using a login or recovery form. In this fictional exercise every example uses made-up details rather than real credentials.
+accounts:sentence:4 score=0.1104 accounts
+The service desk keeps a reference number so a student can ask about the progress of a request. A student should check the official portal address before using a login or recovery form.
+accounts:sentence:0 score=0.1089 accounts
+A forgotten password can be reset using the recovery link on the login page. The recovery email is sent to the registered address attached to the student account.
+QUERY Can I pay tuition in installments?
+library:sentence:1 score=0.2954 library
+When a reservation exists the borrower should return the book by the stated due date. An overdue return can lead to a fine shown on the library account. Students can check loan dates in the library portal.
+fees:sentence:2 score=0.2080 fees
+Students should keep a receipt for every payment they make. An email asking for money outside the official portal should be reported. The finance office can explain the outstanding balance in an account.
+library:sentence:3 score=0.1908 library
+During examinations students may borrow several books, but the normal return rule still applies. In this training document the borrowing limits are only imaginary examples. Students can ask library staff to clarify a reservation status before making a trip.
+BACKEND embedding
+NOT RUN embedding ModuleNotFoundError No module named 'sentence_transformers'

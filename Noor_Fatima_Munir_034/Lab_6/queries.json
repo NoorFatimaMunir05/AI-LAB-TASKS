@@ -1,0 +1,72 @@
+[
+  {
+    "id": "Q01",
+    "query": "When I get ill, what proof do I need for an extension?",
+    "source_id": "handbook",
+    "evidence": "A student who is ill may request an extension before the deadline when a medical certificate is provided.",
+    "split": "development"
+  },
+  {
+    "id": "Q02",
+    "query": "How do I get into my account after forgetting the password?",
+    "source_id": "accounts",
+    "evidence": "A forgotten password can be reset using the recovery link on the login page.",
+    "split": "development"
+  },
+  {
+    "id": "Q03",
+    "query": "Can I arrange smaller fee payments because of hardship?",
+    "source_id": "fees",
+    "evidence": "A student facing financial hardship may request a payment plan before the due date.",
+    "split": "development"
+  },
+  {
+    "id": "Q04",
+    "query": "May I renew a book that another student has reserved?",
+    "source_id": "library",
+    "evidence": "A student may renew a book unless another student has already reserved that copy.",
+    "split": "development"
+  },
+  {
+    "id": "Q05",
+    "query": "I did not bring my identification to an exam. What should I do?",
+    "source_id": "exams",
+    "evidence": "If a student forgets the card, the examination office must verify identity before entry.",
+    "split": "test"
+  },
+  {
+    "id": "Q06",
+    "query": "Where can I submit my assignment and see the deadline?",
+    "source_id": "handbook",
+    "evidence": "Coursework must normally be uploaded through the learning portal before the deadline.",
+    "split": "test"
+  },
+  {
+    "id": "Q07",
+    "query": "What does an approved payment plan change?",
+    "source_id": "fees",
+    "evidence": "Only an approved payment plan changes the payment schedule, and it does not cancel the amount owed.",
+    "split": "test"
+  },
+  {
+    "id": "Q08",
+    "query": "How can I check that my exam time did not change?",
+    "source_id": "exams",
+    "evidence": "The timetable is published on the examination portal and may be updated.",
+    "split": "test"
+  },
+  {
+    "id": "Q09",
+    "query": "What is the price of a parking permit?",
+    "source_id": null,
+    "evidence": null,
+    "split": "unanswerable"
+  },
+  {
+    "id": "Q10",
+    "query": "Who won the last football match?",
+    "source_id": null,
+    "evidence": null,
+    "split": "unanswerable"
+  }
+]

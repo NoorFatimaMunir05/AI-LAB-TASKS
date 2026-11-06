@@ -1,0 +1,32 @@
+[
+  {
+    "id": "handbook",
+    "title": "Assessment submission and illness support",
+    "text": "Coursework must normally be uploaded through the learning portal before the deadline. Late coursework normally receives a penalty when the deadline has already passed. A student who is ill may request an extension before the deadline when a medical certificate is provided. The course coordinator checks the evidence and confirms whether the extension is approved. A message from a friend is not accepted as medical evidence. The student should keep the upload receipt and the response from the course office. An approved extension changes the submission date but does not remove academic integrity rules. If the student cannot open the portal, the student should report the issue to the help desk. During a busy week, the course office may receive many requests and must record each one accurately. Students should follow the instructions on the current course page rather than an old screenshot. The training handbook in this exercise is fictional and does not represent an actual university policy. A support ticket does not automatically approve a late submission.",
+    "source": "handbook.txt"
+  },
+  {
+    "id": "accounts",
+    "title": "Account recovery and IT help",
+    "text": "A forgotten password can be reset using the recovery link on the login page. The recovery email is sent to the registered address attached to the student account. If the registered email is unavailable, the student must visit the IT desk with identification. IT staff must not request that students share a current password or recovery code. An account may be temporarily locked after repeated failed login attempts. A staff member verifies the request before resetting an account with no email access. Changing a password does not automatically change a course enrolment. Students should sign out of computers they do not own. A student should check the official portal address before using a login or recovery form. In this fictional exercise every example uses made-up details rather than real credentials. The service desk keeps a reference number so a student can ask about the progress of a request. A student should check the official portal address before using a login or recovery form. Support messages should not include a clear-text password.",
+    "source": "accounts.txt"
+  },
+  {
+    "id": "fees",
+    "title": "Fees and payment-plan requests",
+    "text": "The regular fee payment deadline is shown on the student finance page. A student facing financial hardship may request a payment plan before the due date. Only an approved payment plan changes the payment schedule, and it does not cancel the amount owed. The finance office may ask for supporting information before making a decision. Late requests may be considered separately but approval is not automatic. Students should keep a receipt for every payment they make. An email asking for money outside the official portal should be reported. The finance office can explain the outstanding balance in an account. Students should check the payment amount themselves rather than trust an unofficial social-media message. In this fictional finance guide no bank account numbers or personal transactions are included. The request status should be checked through a confirmed office channel. Students should check the payment amount themselves rather than trust an unofficial social-media message. In this fictional finance guide no bank account numbers or personal transactions are included. Different courses may use different fee schedules.",
+    "source": "fees.txt"
+  },
+  {
+    "id": "library",
+    "title": "Library borrowing and reservations",
+    "text": "A library book may be borrowed for fourteen days under the standard student loan rule. A student may renew a book unless another student has already reserved that copy. When a reservation exists the borrower should return the book by the stated due date. An overdue return can lead to a fine shown on the library account. Students can check loan dates in the library portal. Reference-only materials must stay inside the library building. Damaged books should be reported to the help desk before return. The catalogue shows whether a copy is available. During examinations students may borrow several books, but the normal return rule still applies. In this training document the borrowing limits are only imaginary examples. Students can ask library staff to clarify a reservation status before making a trip. During examinations students may borrow several books, but the normal return rule still applies. In this training document the borrowing limits are only imaginary examples. A library email should include the book title but not a private account password.",
+    "source": "library.txt"
+  },
+  {
+    "id": "exams",
+    "title": "Exam entry and timetable rules",
+    "text": "Students should bring a valid identification card to the examination room. If a student forgets the card, the examination office must verify identity before entry. A screenshot of a card is not automatically accepted as a replacement. The timetable is published on the examination portal and may be updated. The latest official timetable takes priority over older shared copies. Students should arrive early enough to complete the attendance check. A phone may have to be switched off and placed away during an examination. Instructions from the supervising staff must be followed. The fictional examination office stores the room and date for each paper. A student should read the official notice before travelling to campus for an exam. This synthetic sample does not describe the rules of any particular institution. The fictional examination office stores the room and date for each paper. A student should read the official notice before travelling to campus for an exam. This synthetic sample does not describe the rules of any particular institution. Special arrangements must be confirmed by the examination office beforehand.",
+    "source": "exams.txt"
+  }
+]

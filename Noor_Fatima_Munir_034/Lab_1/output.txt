@@ -1,0 +1,8 @@
+CASE | INPUT | EXPECTED | ACTUAL | REASON | PROBABILITY | DISAGREE
+pass | (82, True, 80, 40000, 0.81) | Review | Review | All conditions met | Review | False
+attendance_fail | (82, True, 70, 40000, 0.81) | Hold | Hold | Attendance below 75 | Review | True
+income_fail | (82, True, 80, 60000, 0.81) | Hold | Hold | Income above 50000 | Review | True
+boundary | (70, True, 75, 50000, 0.7) | Review | Review | All conditions met | Review | False
+EDGE CASES
+(91, False, 90, 30000, 0.88) ('Hold', 'Missing documents') Review
+(69, True, 80, 40000, 0.69) ('Hold', 'Score below 70') Hold

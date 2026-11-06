@@ -1,0 +1,10 @@
+STEP | PERCEPT | REFLEX | PREVIOUS | TARGET | ACTION
+1 | (29, True) | COOL | None | COOL | COMMAND
+2 | (29, True) | COOL | COOL | COOL | NO COMMAND
+3 | (20, True) | IDLE | COOL | IDLE | COMMAND
+4 | (26, True) | IDLE | IDLE | IDLE | NO COMMAND
+5 | (19, True) | WARM | IDLE | WARM | COMMAND
+6 | (29, False) | ECO | WARM | ECO | COMMAND
+7 | (26.1, True) | COOL | ECO | COOL | COMMAND
+8 | (25.9, True) | IDLE | COOL | IDLE | COMMAND
+9 | (26.1, True) | COOL | IDLE | COOL | COMMAND

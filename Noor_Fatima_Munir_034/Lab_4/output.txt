@@ -1,0 +1,20 @@
+HEURISTIC AUDIT
+S admissible True
+S A consistent True
+S B consistent True
+A admissible True
+A C consistent True
+B admissible True
+B G consistent True
+C admissible True
+C G consistent True
+G admissible True
+A STAR path ['S', 'A', 'C', 'G'] cost 6 independent 6 expanded 3
+PROCESSED [('S', 0, 5, 5), ('A', 1, 4, 5), ('C', 3, 2, 5), ('G', 6, 0, 6)]
+FRONTIER [('S', [('A', 1, 5), ('B', 4, 8)]), ('A', [('B', 4, 8), ('C', 3, 5)]), ('C', [('B', 4, 8), ('G', 6, 6)])]
+UCS path ['S', 'A', 'C', 'G'] cost 6 independent 6 expanded 4
+PROCESSED [('S', 0, 0, 0), ('A', 1, 0, 1), ('C', 3, 0, 3), ('B', 4, 0, 4), ('G', 6, 0, 6)]
+FRONTIER [('S', [('A', 1, 1), ('B', 4, 4)]), ('A', [('B', 4, 4), ('C', 3, 3)]), ('C', [('B', 4, 4), ('G', 6, 6)]), ('B', [('G', 6, 6)])]
+OVERESTIMATE path ['S', 'B', 'G'] cost 9 independent 9 expanded 3
+PROCESSED [('S', 0, 5, 5), ('A', 1, 4, 5), ('B', 4, 4, 8), ('G', 9, 0, 9)]
+FRONTIER [('S', [('A', 1, 5), ('B', 4, 8)]), ('A', [('B', 4, 8), ('C', 3, 13)]), ('B', [('C', 3, 13), ('G', 9, 9)])]

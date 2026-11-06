@@ -1,0 +1,6 @@
+supplied_minimax_padded leaves [3, 5, 2, 9, 0, 7, 0, 0] minimax 5 count 8 visited [0, 1, 2, 3, 4, 5, 6, 7] alpha-beta 5 count 8 visited [0, 1, 2, 3, 4, 5, 6, 7]
+original leaves [3, 5, 2, 9, 3, 5, 2, 9] minimax 5 count 8 visited [0, 1, 2, 3, 4, 5, 6, 7] alpha-beta 5 count 6 visited [0, 1, 2, 3, 4, 5]
+reordered leaves [9, 2, 5, 3, 9, 2, 5, 3] minimax 5 count 8 visited [0, 1, 2, 3, 4, 5, 6, 7] alpha-beta 5 count 8 visited [0, 1, 2, 3, 4, 5, 6, 7]
+all_equal leaves [4, 4, 4, 4, 4, 4, 4, 4] minimax 4 count 8 visited [0, 1, 2, 3, 4, 5, 6, 7] alpha-beta 4 count 5 visited [0, 1, 2, 4, 5]
+MINIMAX HAND TRACE: MAX pairs (3,5)->5, (2,9)->9, (3,5)->5, (2,9)->9; MIN groups 5 and 5; root MAX 5
+SUPPLIED TREE: six values [3,5,2,9,0,7], padded with 0 and 0 to a full depth-3 tree
